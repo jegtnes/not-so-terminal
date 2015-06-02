@@ -65,6 +65,52 @@
 					<h1>But here are some things about Git that I find useful</h1>
 				</section>
 
+				<section>
+					<section>
+						<h1>Branches are nothing special, and not magical</h1>
+					</section>
+					<section>
+						<h1>A branch is a reference to a particular commit</h1>
+						<div class="fragment">
+							<h2>This is sometimes called the 'tip'. If you make another commit on that branch, you automatically switch that branch to point to the most recent commit.<h2>
+						</div>
+						<div class="fragment">
+							<h2>A commit is a record of what has changed since last time</h2>
+							<p>
+								(and as such will nearly always have a parent commit and a child commit)
+							</p>
+						</div>
+					</section>
+					<section>
+						<h1>If you branch off master but don't commit anything yet, all you've got are two branches pointing to the same commit</h1>
+					</section>
+
+					<section>
+						<h1>Once you commit something you've got divergent histories. You know all this.</h1>
+					</section>
+					<section>
+						<img src="img/gl-master1.png" alt="" />
+					</section>
+					<section>
+						<img src="img/gl-additions.png" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>You cannot ever 'break' Git</h1>
+					</section>
+
+					<section>
+						<h1>What do you think will happen here?</h1>
+						<img src="img/git-delete-unmerged.png" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<h1>When you merge a branch, you're actually doing two things</h1>
+				</section>
+
  				<!--       -->
 
 				<section>
